@@ -37,19 +37,15 @@ const courses = [
     description: "From organic living to the casual elegance of La Jolla, Westfield UTC presents the ultimate resort shopping experience. Located in the vibrant core of San Diego's most affluent beach community, Westfield UTC serves one of the most affluent trade areas in the country."
   },
   {
-    id: "react-creating-reusable-components",
-    title: "Creating Reusable React Components",
-    watchHref: "http://pluralsight.com/courses/react-creating-reusable-components",
-    authorId: "cory-house",
-    category: "JavaScript"
-  },
-  {
-    id: "react-flux-building-applications",
-    title: "Building Applications in React and Flux",
-    watchHref: "http://www.pluralsight.com/courses/react-flux-building-applications",
-    authorId: "cory-house",
-    category: "JavaScript"
-  },
+    id: "toys-for-tots",
+    title: "Toys for Tots",
+    watchHref: "https://www.toysfortots.org/",
+    authorId: "U.S. Marine Corps",
+    date: "October 20 - 23, 2018",
+    areaCode: "94533",
+    category: "Charity",
+    description: "The mission of the U. S. Marine Corps Reserve Toys for Tots Program is to collect new, unwrapped toys during October, November and December each year, and distribute those toys as Christmas gifts to less fortunate children in the community in which the campaign is conducted."
+  }
 ];
 
 function replaceAll(str, find, replace) {
